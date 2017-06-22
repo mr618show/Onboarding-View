@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		A568FBC31EF8DAE400EEC89B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A568FBC21EF8DAE400EEC89B /* AppDelegate.swift */; };
-		A568FBC51EF8DAE400EEC89B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A568FBC41EF8DAE400EEC89B /* ViewController.swift */; };
 		A568FBC81EF8DAE400EEC89B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A568FBC61EF8DAE400EEC89B /* Main.storyboard */; };
 		A568FBCA1EF8DAE400EEC89B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A568FBC91EF8DAE400EEC89B /* Assets.xcassets */; };
 		A568FBCD1EF8DAE400EEC89B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A568FBCB1EF8DAE400EEC89B /* LaunchScreen.storyboard */; };
+		A568FBD51EF8DB5900EEC89B /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A568FBD41EF8DB5900EEC89B /* RootPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A568FBBF1EF8DAE400EEC89B /* PageViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A568FBC21EF8DAE400EEC89B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A568FBC41EF8DAE400EEC89B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A568FBC71EF8DAE400EEC89B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A568FBC91EF8DAE400EEC89B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A568FBCC1EF8DAE400EEC89B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A568FBCE1EF8DAE400EEC89B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A568FBD41EF8DB5900EEC89B /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				A568FBC21EF8DAE400EEC89B /* AppDelegate.swift */,
-				A568FBC41EF8DAE400EEC89B /* ViewController.swift */,
 				A568FBC61EF8DAE400EEC89B /* Main.storyboard */,
 				A568FBC91EF8DAE400EEC89B /* Assets.xcassets */,
 				A568FBCB1EF8DAE400EEC89B /* LaunchScreen.storyboard */,
 				A568FBCE1EF8DAE400EEC89B /* Info.plist */,
+				A568FBD41EF8DB5900EEC89B /* RootPageViewController.swift */,
 			);
 			path = PageViewControllerDemo;
 			sourceTree = "<group>";
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A568FBC51EF8DAE400EEC89B /* ViewController.swift in Sources */,
 				A568FBC31EF8DAE400EEC89B /* AppDelegate.swift in Sources */,
+				A568FBD51EF8DB5900EEC89B /* RootPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
